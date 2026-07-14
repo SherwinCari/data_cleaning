@@ -1,0 +1,4 @@
+location,country,temperature,feels_like,temp_min,temp_max,pressure,humidity,weather,wind_speed,wind_direction,cloudiness,visibility,sunrise,sunset,timestamp
+Copenhagen,DK,20.1,20.18,20.08,20.08,1024,78,overcast clouds,2.07,59,90,10000,2026-07-13 10:43:30,2026-07-14 03:46:59,2026-07-13 14:45:05
+Zurich,CH,22.4,22.14,21.27,23.86,1018,55,overcast clouds,0.45,187,100,10000,2026-07-13 11:42:10,2026-07-14 03:20:27,2026-07-13 14:47:19
+Helsinki,FI,17.4,17.35,17.09,18.32,1017,83,few clouds,9.83,350,14,10000,2026-07-13 09:18:01,2026-07-14 03:33:31,2026-07-13 14:46:03
