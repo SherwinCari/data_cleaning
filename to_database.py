@@ -63,7 +63,7 @@ def load_data(df: pd.DataFrame):
   os.makedirs("datas", exist_ok = True)
   df.to_csv(r"datas\weather_data.csv", index=False)
 
-  engine = create_engine("postgresql://postgres:admin123@localhost:5432/weather_data")
+  engine = create_engine("postgresql://postgres:(YOUR-PASSWORD)@(HOST):(PORT)/weather_data") #<<<<<<<==================== FINISH INFO HERE
 
   try:
     df.to_sql("weather", engine, if_exists="append", index=False)
